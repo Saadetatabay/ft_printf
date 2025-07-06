@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "ft_printf_X.C": "c"
+    },
+    "codam-norminette-3.command": "norminette",
+    "codam-norminette-3.commandTimeoutMs": 10000,
+    "codam-norminette-3.fileregex": "\\.[ch]$",
+    "codam-norminette-3.ignoreErrors": [],
+    "codam-norminette-3.highlight-color": "rgba(255, 0, 0, 0.2)",
+    "codam-norminette-3.displayErrorName": false,
+    "42header.username" : "satabay",
+    "42header.email": "satabay@student.42istanbul.com.tr"
+}
