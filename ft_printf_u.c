@@ -6,7 +6,7 @@
 /*   By: satabay <satabay@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/06 20:38:57 by satabay           #+#    #+#             */
-/*   Updated: 2025/07/06 20:39:17 by satabay          ###   ########.fr       */
+/*   Updated: 2025/07/18 11:22:47 by satabay          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int	ft_printf_u(unsigned int num)
 	count = 0;
 	if (num > 9)
 	{
-		ft_printf_d(num / 10);
+		count += ft_printf_d(num / 10);
 		c = (num % 10) + '0';
 		count += write(1, &c, 1);
 	}

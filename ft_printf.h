@@ -6,14 +6,14 @@
 /*   By: satabay <satabay@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/06 19:21:32 by satabay           #+#    #+#             */
-/*   Updated: 2025/07/06 20:02:32 by satabay          ###   ########.fr       */
+/*   Updated: 2025/07/18 12:23:33 by satabay          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
-#define FT_PRINTF_H
-#include <unistd.h>
-#include <stdarg.h>
+# define FT_PRINTF_H
+# include <unistd.h>
+# include <stdarg.h>
 
 int	ft_printf(const char *format, ...);
 int	ft_printf_s(char *c);

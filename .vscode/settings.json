@@ -1,6 +1,9 @@
 {
     "files.associations": {
-        "ft_printf_X.C": "c"
+        "ft_printf_X.C": "c",
+        "bitset": "c",
+        "chrono": "c",
+        "algorithm": "c"
     },
     "codam-norminette-3.command": "norminette",
     "codam-norminette-3.commandTimeoutMs": 10000,
